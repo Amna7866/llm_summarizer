@@ -1,6 +1,9 @@
 # llm_summarizer
 This project is a document summarization tool built using open-source language models (LLMs) that run entirely on your local CPU, with no need for OpenAI APIs. Users can upload PDF files, and the app will extract and summarize the text using Hugging Face's transformers and langchain libraries. It features a simple Streamlit GUI and a backend built for efficient offline text processing.
 
+![App view](data/image.png)
+
+
 Steps to Run the Application
 Clone the Repository
 Set Up Virtual Environment
