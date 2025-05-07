@@ -1,6 +1,14 @@
 # llm_summarizer
 This project is a document summarization tool built using open-source language models (LLMs) that run entirely on your local CPU, with no need for OpenAI APIs. Users can upload PDF files, and the app will extract and summarize the text using Hugging Face's transformers and langchain libraries. It features a simple Streamlit GUI and a backend built for efficient offline text processing.
 
+Steps to Run the Application
+Clone the Repository
+Set Up Virtual Environment
+Once the setup is complete, you can run the Streamlit application: streamlit run app.py
+
+
+
+
 Features
 PDF Upload & Parsing: Upload multi-page PDFs; text is auto-extracted using PyPDFLoader.
 Summarize documents using open-source LLMs like T5
